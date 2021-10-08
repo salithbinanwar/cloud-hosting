@@ -185,12 +185,14 @@ img {
 .languages .card{
     text-align: center;
     margin: 18px 10px 40px;
+    transition: transform 0.3s ease-in;
 }
 
 .languages .card h4{
 
         font-size:20px;
         margin-bottom: 10px;
+        
 
 }
 
