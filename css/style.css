@@ -199,3 +199,8 @@ img {
 .languages .card:hover{
     transform:translateY(-20px);
 }
+
+.footer{
+    padding: 5%;
+}
+
