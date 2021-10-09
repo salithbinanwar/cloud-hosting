@@ -200,7 +200,29 @@ img {
     transform:translateY(-20px);
 }
 
+/* footer */
+
 .footer{
     padding: 5%;
 }
+/* tablet and under */
+@media (min-width: 768px) {
+    
+}
 
+/* mobile */
+@media(max-width:500px){
+    /* .navbar{
+        height: 110px;
+    }
+    .navbar .flex{
+        flex-direction: column;
+    }
+    .navbar nav{
+        padding: 10px;
+        background-color: rgba(0,0,0, 0.1)
+    } */
+    body {
+        display:none;
+    }
+}
