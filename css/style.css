@@ -250,7 +250,7 @@ img {
         
     }
     p{
-        padding: 20px;
+        padding: 15px;
     }
     .showcase-form{
         justify-self: center;
@@ -259,5 +259,10 @@ img {
     .cli .grid, .cloud .grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+
+    .cli .grid > *:first-child{
+        grid-column: 1 ;
+        grid-row: 1 ;
     }
 }
