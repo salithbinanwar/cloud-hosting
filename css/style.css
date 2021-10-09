@@ -212,7 +212,7 @@ img {
 
 /* mobile */
 @media(max-width:500px){
-    /* .navbar{
+    .navbar{
         height: 110px;
     }
     .navbar .flex{
@@ -221,8 +221,8 @@ img {
     .navbar nav{
         padding: 10px;
         background-color: rgba(0,0,0, 0.1)
-    } */
-    body {
-        display:none;
     }
+
+
+
 }
