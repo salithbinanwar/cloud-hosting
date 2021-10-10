@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 :root {
-    --primary-color: #047aed;
+    --primary-color: #3498DB;
 }
 
 * {
@@ -199,11 +199,19 @@ img {
 .languages .card:hover{
     transform:translateY(-20px);
 }
+/* features */
+.features-head img{
+    width: 200px;
+    justify-self: flex-end;
+}
 
 /* footer */
 
 .footer{
     padding: 5%;
+}
+.social a{
+    margin-left: 20px;
 }
 /* tablet and under */
 @media (min-width: 768px) and (max-width: 991px) {
