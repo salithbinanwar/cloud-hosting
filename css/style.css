@@ -238,7 +238,7 @@ img {
 }
 
 /* mobile */
-@media(max-width:500px) {
+@media(max-width:500px) and (max-width: 600px){
     .navbar{
         height: 110px;
     }
